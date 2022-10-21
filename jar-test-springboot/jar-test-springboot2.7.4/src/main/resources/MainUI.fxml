@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test.MainUIController">
+    <children>
+        <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ToolBar prefHeight="40.0" prefWidth="200.0">
+                    <items>
+                        <Button mnemonicParsing="false" text="Button" />
+                    </items>
+                </ToolBar>
+            <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+               <children>
+                  <Label text="Java Version" />
+                  <Label fx:id="java" />
+                  <Label text="Javafx Version" />
+                  <Label fx:id="javafx" />
+               </children>
+            </HBox>
+                <WebView fx:id="webView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <HBox alignment="CENTER_LEFT" prefHeight="35.0" spacing="5.0">
+                    <children>
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <Button mnemonicParsing="false" text="Button" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
